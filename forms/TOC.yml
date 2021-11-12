@@ -1,0 +1,14 @@
+- name: Microsoft Forms-Administrator
+  href: index.yml
+- name: Administratoreinstellungen für Microsoft Forms
+  href: /microsoft-forms/administrator-settings-microsoft-Forms
+- name: Einrichten von Microsoft Forms
+  href: /microsoft-forms/set-up-microsoft-forms
+- name: Aktivieren oder Deaktivieren von Microsoft Forms
+  href: /microsoft-forms/turn-off-turn-on-microsoft-forms
+- name: Häufig gestellte Fragen zu Administratorinformationen
+  href: /microsoft-forms/admin-information
+- name: 'Überprüfen und Entsperren von Formularen oder Benutzern, die wegen potenziellen Phishings erkannt und blockiert wurden'
+  href: /microsoft-forms/review-unblock-forms-users-detected-blocked-potential-phishing
+- name: Microsoft Forms und Benutzerkonten
+  href: /microsoft-forms/microsoft-forms-user-accounts
