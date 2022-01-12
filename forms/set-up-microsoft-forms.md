@@ -5,20 +5,19 @@ author: dumptruckjon
 manager: kathyl
 audience: Admin
 ms.topic: how-to
-ms.service: forms-pro
+ms.service: microsoft-365-education
 ms.localizationpriority: high
 description: Erfahren Sie, wie Microsoft 365 Administratoren steuern können, wie Microsoft Forms in ihrer Organisation verwendet wird. Außerdem erhalten Sie Antworten auf Fragen zur Sicherheit und Compliance, z.B. wo Daten für Microsoft Forms gespeichert sind.
-ms.openlocfilehash: abee1557f379f646b277866f32fc0640c0b643cd
-ms.sourcegitcommit: 09bdc82ce67e74495b6c58d9c842e31c17956fc3
+ms.openlocfilehash: bb0e1a6ba8e2085550eb18a8bb393b34b197fe51
+ms.sourcegitcommit: 80aa5565b4008855be844e8e5ab3f2779fba9a83
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60951466"
+ms.lasthandoff: 01/05/2022
+ms.locfileid: "61723723"
 ---
 # <a name="set-up-microsoft-forms"></a>Einrichten von Microsoft Forms
 
-
-## <a name="overview"></a>[Übersicht](#tab/overview)
+## <a name="overview"></a>Übersicht
 
 Mit Microsoft Forms können Ihre Benutzer schnell und einfach benutzerdefinierte Testfragen, Umfragen, Fragebögen, Registrierungen und vieles mehr erstellen. Wenn Sie ein Quiz oder ein Formular erstellen, können Sie andere dazu einladen, über einen Webbrowser darauf zu antworten, auch auf mobilen Geräten. Wenn Ergebnisse übermittelt werden, können Sie integrierte Analysen verwenden, um die Antworten auszuwerten. Formulardaten, z.B. Testergebnisse, können einfach zur weiteren Analyse oder Bewertung nach Excel exportiert werden.
 
@@ -29,58 +28,19 @@ Weitere Informationen finden Sie unter [Was ist Microsoft Forms?](https://suppor
 
 :::image type="content" source="./media/set-up-forms-team-event.png" alt-text="Vorschau, wie ein Formular auf einem mobilen Gerät aussieht.":::
 
-## <a name="configure"></a>[Konfigurieren](#tab/configure)
+## <a name="configure"></a>Konfigurieren
 
 Microsoft 365 Administratoren können mithilfe der folgenden Aufgaben steuern, wie Microsoft Forms in ihrer Organisation verwendet wird:
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Administratoraufgabe</strong></th>
-<th><strong>Beschreibung</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Aktivieren oder Deaktivieren von Microsoft Forms</strong></td>
-<td>Microsoft Forms ist standardmäßig für Ihre Organisation aktiviert. Sie können es jederzeit <a href="https://support.microsoft.com/office/turn-off-or-turn-on-microsoft-forms-8dcbf3ab-f2d6-459a-b8be-8d9892132a43">deaktivieren</a>.</td>
-</tr>
-<tr class="even">
-<td><strong>Deaktivieren von Microsoft Forms für einzelne Personen in Ihrer Organisation</strong></td>
-<td>Wenn Sie Microsoft Forms für eine bestimmte Person deaktivieren, kann sie es nicht verwenden, und die <strong>Formularkachel</strong> wird nicht im Microsoft 365 App-Startfeld oder auf der Startseite angezeigt.  Erfahren Sie, wie Sie <a href="https://support.microsoft.com/office/turn-off-or-turn-on-microsoft-forms-8dcbf3ab-f2d6-459a-b8be-8d9892132a43">Formulare für bestimmte Personen deaktivieren</a>. </td>
-</tr>
-<tr class="odd">
-<td><strong>Einrichten des bedingten Zugriffs in Azure Active Directory für Microsoft Forms</strong></td>
-<td><p>Wenn Sie eine Richtlinie für bedingten Zugriff für Microsoft Forms einrichten möchten, lesen Sie die <a href="/azure/active-directory/conditional-access/">Dokumentation zum bedingten Zugriff in Azure AD</a> und fügen Sie <strong>Microsoft Form</strong> den <strong>Cloud-Apps-Zuweisungen</strong> hinzu.</p>
-<p><strong>Hinweis:</strong> Wenn Benutzer in Ihrer Organisation auch nach dem Einrichten des bedingten Zugriffs für Microsoft Forms weiterhin blockiert werden, stellen Sie sicher, dass SharePoint Online und Exchange Online ebenfalls Zugriff per bedingtem Zugriff haben. <a href="/azure/active-directory/conditional-access/conditional-access-for-exo-and-spo">Weitere Informationen</a>.</p></td>
-</tr>
-<tr class="even">
-<td><strong>Steuern der Einstellungen für die externe Freigabe, Aufzeichnen von Namen von Personen in Ihrer Organisation und/oder Schützen von Formularen vor Phishing</strong></td>
-<td><p>Im Microsoft 365 Admin Center haben Sie folgende Möglichkeiten:</p>
-<ul>
-<li><p>Sie können steuern, ob externe Benutzer mit Benutzern in Ihrer Organisation an einem Formular oder Test zusammenarbeiten dürfen.</p></li>
-<li><p>Sie können auswählen, ob die Namen von Personen in Ihrer Organisation erfasst werden sollen, die Formulare ausfüllen.</p></li>
-<li><p>Sie können die automatische Phishingerkennung auf Formularen deaktivieren oder aktivieren.</p></li>
-</ul>
-<p>Erfahren Sie mehr über diese <a href="https://support.microsoft.com/office/administrator-settings-for-microsoft-forms-48161c55-fbae-4f37-8951-9e3befc0248b">Administratoreinstellungen</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><strong>Benutzern das Einfügen eines Formulars in PowerPoint ermöglichen</strong></td>
-<td><ol type="1">
-<li><p>Melden Sie sich bei <a href="https://admin.microsoft.com/">https://admin.microsoft.com</a> an.</p></li>
-<li><p>Klicken Sie auf <strong>Einstellungen</strong> &gt; <strong>Einstellungen</strong>.</p></li>
-<li><p>Klicken Sie auf der Seite <strong>Einstellungen</strong> auf der Registerkarte <strong>Dienste</strong> auf die Option <strong>Apps und Dienste im Besitz des Benutzers</strong>.</p></li>
-<li><p>Aktivieren Sie die Option <strong>Benutzern den Zugriff auf den Office Speicher ermöglichen</strong>, damit Benutzer ein Formular in PowerPoint einfügen können.</p></li>
-</ol>
-<blockquote>
-<p>Bitte beachten Sie, dass es einige Stunden dauern kann, bis die Änderung wirksam wird. <a href="/office365/admin/manage/manage-deployment-of-add-ins>Learn more</a>.</p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
+|Administratoraufgabe   |Beschreibung   |
+|----------|-----------|
+|**Aktivieren oder Deaktivieren von Microsoft Forms**|Microsoft Forms ist standardmäßig für Ihre Organisation aktiviert. Sie können es jederzeit [deaktivieren](turn-off-turn-on-microsoft-forms.md).|
+|**Deaktivieren von Microsoft Forms für einzelne Personen in Ihrer Organisation**|Wenn Sie Microsoft Forms für eine bestimmte Person deaktivieren, kann sie es nicht verwenden, und die *Formularkachel* wird nicht im Microsoft 365 App-Startfeld oder auf der Startseite angezeigt. Erfahren Sie, wie Sie [Formulare für bestimmte Personen deaktivieren](turn-off-turn-on-microsoft-forms.md).|
+|**Einrichten des bedingten Zugriffs in Azure Active Directory für Microsoft Forms**|Wenn Sie eine Richtlinie für bedingten Zugriff für Microsoft Forms einrichten möchten, lesen Sie die [Dokumentation zum bedingten Zugriff in Azure AD](/azure/active-directory/conditional-access) und fügen Sie *Microsoft Form* den *Cloud-Apps-Zuweisungen* hinzu. <br/><br/> **Hinweis:** Wenn Benutzer in Ihrer Organisation auch nach dem Einrichten des bedingten Zugriffs für Microsoft Forms weiterhin blockiert werden, stellen Sie sicher, dass SharePoint Online und Exchange Online ebenfalls Zugriff über bedingtem Zugriff erhalten haben. [Weitere Informationen](/azure/active-directory/conditional-access/block-legacy-authentication).|
+|**Steuern der Einstellungen für die externe Freigabe, Aufzeichnen von Namen von Personen in Ihrer Organisation und/oder Schützen von Formularen vor Phishing**|Im Microsoft 365 Admin Center haben Sie folgende Möglichkeiten: <ul><li>Sie können steuern, ob externe Benutzer mit Benutzern in Ihrer Organisation an einem Formular oder Test zusammenarbeiten dürfen.</li><li>Sie können auswählen, ob die Namen von Personen in Ihrer Organisation erfasst werden sollen, die Formulare ausfüllen.</li><li>Sie können die automatische Phishingerkennung auf Formularen deaktivieren oder aktivieren.</li></ul><br/>Erfahren Sie mehr über diese [Administratoreinstellungen](administrator-settings-microsoft-forms.md).|
+|**Benutzern das Einfügen eines Formulars in PowerPoint ermöglichen**|<ol><li>Melden Sie sich bei https://admin.microsoft.com an.</li><li>Klicken Sie auf **Einstellungen** > **Einstellungen**.</li><li>Klicken Sie auf der Seite **Einstellungen** auf der Registerkarte **Dienste** auf die Option **Apps und Dienste im Besitz des Benutzers**.</li><li>Aktivieren Sie die Option **Benutzern den Zugriff auf den Office Speicher ermöglichen**, damit Benutzer ein Formular in PowerPoint einfügen können.</li></ol><br/>Beachten Sie, dass es einige Stunden dauern kann, bis die Änderung wirksam wird. [Weitere Informationen](/microsoft-365/admin/manage/manage-deployment-of-add-ins)|
 
-
-## <a name="security--compliance"></a>[Sicherheit und Compliance](#tab/security)
+## <a name="security--compliance"></a>Sicherheit und Compliance
 
 Wenn Ihr Unternehmen in Hinsicht auf die Inhaltssicherheit und Datennutzung rechtliche, behördliche und technische Standards erfüllen muss, sollten Sie diesen Abschnitt unbedingt lesen.
 
@@ -90,17 +50,17 @@ Microsoft Forms-Daten werden auf Servern in den USA und Europa gespeichert. Alle
 
 **Ist Microsoft Forms regelkonform?**
 
-Microsoft Forms erfüllt die DSGVO-Complianceanforderungen vom May 2018. Weitere Informationen finden Sie unter [Microsoft 365 Anträge betroffener Personen für die DSGVO](/microsoft-365/compliance/gdpr-dsr-office365?toc=/microsoft-365/enterprise/toc.json)
+Microsoft Forms erfüllt die DSGVO-Complianceanforderungen vom May 2018. Weitere Informationen finden Sie unter [Microsoft 365 – Anträge betroffener Personen für die DSGVO](/microsoft-365/compliance/gdpr-dsr-office365?toc=/microsoft-365/enterprise/toc.json).
 
 **Sind FERPA- und BAA-Schutzmaßnahmen vorhanden?**
 
 Microsoft Forms erfüllt die [FERPA](https://www.microsoft.com/trustcenter/compliance/ferpa)- und [BAA-Schutzstandards](https://www.microsoft.com/TrustCenter/Compliance/HIPAA).
 
-*Ist die Anzahl der Benutzer und die Datenmenge, die für Benutzerkonten gespeichert werden, auch nach dem Verlassen meiner Organisation begrenzt?*
+**Ist die Anzahl der Benutzer und die Datenmenge, die für Benutzerkonten gespeichert werden, auch nach dem Verlassen meiner Organisation begrenzt?**
 
 Derzeit gibt es keine Begrenzung für die Anzahl der Benutzer, für die Daten aufbewahrt werden, solange die Bereitstellung ihrer Konten im Rahmen der Onlinedienstvereinbarung Ihrer Organisation erfolgt. Auch die Menge der gespeicherten Daten für Benutzerkonten ist nicht begrenzt.
 
-*Der ursprüngliche Eigentümer eines Formulars gehört nicht mehr zu meiner Organisation und/oder seine Microsoft Forms-Lizenz wurde entfernt. Was passiert also mit den Daten, die mit dem von ihm erstellten Formular verknüpft sind?*
+**Der ursprüngliche Eigentümer eines Formulars gehört nicht mehr zu meiner Organisation und/oder seine Microsoft Forms-Lizenz wurde entfernt. Was passiert also mit den Daten, die mit dem von ihm erstellten Formular verknüpft sind?**
 
 Alle kontobezogenen Daten werden 30 Tage nach der Löschung eines Benutzerkontos von Ihrem Mandanten (Azure AD) gelöscht.
 
@@ -114,7 +74,7 @@ Microsoft Forms ist eine einfache, kleine App, mit der Sie auf einfache Weise Um
 
 Microsoft Forms kann kostenlos für alle Benutzer mit einem Microsoft-Konto (Hotmail, Live oder Outlook.com) verwendet werden. Die folgenden Kunden mit Office 365 für Bildungseinrichtungen und Microsoft 365 Apps for Business können auch Microsoft Forms verwenden:
 
-Office 365 Education
+**Office 365 Education**
 
   - Office 365 A1 Plus
 
@@ -122,7 +82,7 @@ Office 365 Education
 
   - Bestehende Kunden, die Office 365 für Bildungseinrichtungen E3 vor der Einstellung erworben haben
 
-Microsoft 365 Apps for Business
+**Microsoft 365 Apps for Business**
 
   - Microsoft 365 Business Basic
 
@@ -164,8 +124,8 @@ Microsoft InfoPath wird durch SharePoint-Listen, Microsoft Flow und PowerApps er
 
 **Wo kann ich Feedback (z.B. Produktfehler oder Featurewünsche) übermitteln?**
 
-Wir freuen uns über Ihr Feedback\! Um Feedback zu Microsoft Forms zu senden, gehen Sie in die obere rechte Ecke Ihres Formulars und wählen Sie **Weitere Formulareinstellungen** ![Schaltfläche „Weitere Optionen“](./media/image2.png)\> **Feedback**.
+Wir freuen uns auf Ihre Kommentare! Um Feedback zu Microsoft Forms zu senden, gehen Sie in die obere rechte Ecke Ihres Formulars und wählen Sie **Weitere Formulareinstellungen** ![Schaltfläche „Weitere Optionen“](./media/image2.png) >  **Feedback** aus.
 
->[!Note]
->Weitere Informationen finden Sie auch unter [Häufig gestellte Fragen zu Microsoft Forms (Preview)](https://support.microsoft.com/office/frequently-asked-questions-about-microsoft-forms-495c4242-6102-40a0-add8-df05ed6af61c).
+> [!Note]
+> Weitere Informationen finden Sie auch unter [Häufig gestellte Fragen zu Microsoft Forms (Preview)](https://support.microsoft.com/office/frequently-asked-questions-about-microsoft-forms-495c4242-6102-40a0-add8-df05ed6af61c).
 
